@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Document</title>
+    <style>
+        
+        .head{
+            background-color: rgba(0, 0, 0, 0.934);
+            display: flex;
+            justify-content: space-between;
+            margin-top: 10px;
+        }
+        .h:hover{
+            transform: scale(1.5);
+        }
+        .main{
+            border: 1px solid black;
+            height: 450px;
+            width:auto ;
+            background-color: black;
+            padding: 20px;
+            background-image: url(./images/g.jpg);
+            background-size: 100% 100%;
+            animation: slider 12s infinite linear;
+
+           
+        }
+        @keyframes slider{
+            30%{ background-image: url(./images/k1.jpg);background-size: 100% 100%; }
+            60%{ background-image: url(./images/h.avif); background-size: 100% 100%;}
+            80%{ background-image: url(./images/k.jpg);background-size: 100% 100%; }
+
+
+        }
+        .cd{
+            border: 1px solid black;
+            height: 300px;
+            width:auto ;
+            padding: 20px;
+            display: flex;
+           background-color:black;
+           overflow: scroll;
+           
+
+        
+           
+        }
+        .cd::-webkit-scrollbar{
+            display: none;
+        }
+
+        
+        .icon{
+            border: 2px solid black;
+            height: 300px;
+            width: 200px;
+            background-color: black;
+            border-radius: 10%;
+            padding: 20px;
+        
+            
+        }
+        .icon:hover{
+            transform: scale(1.2);
+        }
+        .cd1{
+            border: 1px solid black;
+            height: 300px;
+            width:auto ;
+            padding: 4px;
+            display: flex;
+            background-color: black;
+            overflow: scroll;
+           
+        }
+        .cd1::-webkit-scrollbar{
+            display: none;
+        }
+
+        .cd4{
+            display: flex;
+            border: 1px solid black;
+            height: 300px;
+            width:auto ;
+            padding: 4px;
+            background-color:black;
+            overflow: scroll;
+           
+        }
+       
+
+        .cd2{
+            border: 1px solid black;
+            height: 500px;
+            width:auto ;
+            padding: 4px;
+            display: flex;
+            background-color: black;
+            
+           
+        }
+        .icon2{
+            border: 2px solid black;
+            height: 500px;
+            width: 400px;
+            background-color: black;
+            padding: 20px;
+            justify-content: space-between;
+        
+            
+        }
+        .icon2:hover{
+            transform: scale(1.1);
+        }
+        .cd3{
+            border: 1px solid black;
+            height: 500px;
+            width:auto ;
+            padding: 4px;
+            display: flex;
+            background-color: black;
+           
+        }
+        .icon3:hover{
+            transform: scale(1.2);
+        }
+        .icon3{
+            border: 2px solid black;
+            height: 500px;
+            width: 400px;
+            background-color: black;
+            padding: 50px;
+            
+        }
+        .icon3:hover{
+            transform: scale(1.1);
+        }
+       
+        .icon4{
+            border: 2px solid black;
+            height: 300px;
+            width: 200px;
+            background-color: black;
+            border-radius: 10%;
+            padding: 20px;
+        
+            
+        }
+        .cd4::-webkit-scrollbar{
+            display: none;
+        }
+        .icon4:hover{
+            transform: scale(1.1);
+
+        }
+        .search{
+            border-radius: 80px;
+            width: 400px;
+            height: 50px;
+            display: flex;
+            justify-content: right;
+        }
+       
+       
+    </style>
+</head>
+
+<body>
+    <div class="head"> <img  class="h" src="./images/aha logo.png" height="80px">
+        <label class="search" for="search" style="color: white; font-size: x-large; margin-top: 25px; margin-left: 380px;"> <i class="fa fa-search"></i>Search</label>
+        <input class="search" type="search" name="search" style="background-color: black; color: white;  margin-top: 18px;">
+        <button type="submit" style="width: 100px; height: 50px;background-color: orangered; color: white;  margin-top: 20px;">enter</button>
+    
+        
+        <i class="fa fa-reorder" style="font-size:40px; color: orangered;  margin-top: 20px;"></i>
+    </div>
+
+    <div class="main"></div>
+    <div style="border: 4px solid black; height: 40px; background-color: black; font-style: italic; color: white; font-size: xx-large;">New Releases</div>
+    <div class="cd">
+        <div class="icon"><img src="./images/1.jpg"></div>
+        <div class="icon"> <img src="./images/2.jpg" ></div>
+        <div class="icon"> <img src="./images/3.jpg" ></div>
+        <div class="icon"> <img src="./images/4.jpg"></div>
+        <div class="icon"> <img src="./images/5.jpg" ></div>
+        <div class="icon"> <img src="./images/6.jpg" ></div>
+        <div class="icon"> <img src="./images/7.jpg" ></div>
+        <div class="icon"> <img src="./images/8.jpg" ></div>
+        <div class="icon"> <img src="./images/8.jpg" ></div>
+        <div class="icon"> <img src="./images/4.jpg"></div>
+        <div class="icon"> <img src="./images/5.jpg" ></div>
+        <div class="icon"> <img src="./images/6.jpg" ></div>
+        <div class="icon"> <img src="./images/7.jpg" ></div>
+        <div class="icon"> <img src="./images/8.jpg" ></div>
+        <div class="icon"> <img src="./images/8.jpg" ></div>
+        
+    </div>
+    <div class="cd1">
+        <div class="icon"><img src="./images/8.jpg" ></div>
+        <div class="icon"> <img src="./images/7.jpg"></div>
+        <div class="icon"> <img src="./images/6.jpg"></div>
+        <div class="icon"> <img src="./images/5.jpg"></div>
+        <div class="icon"> <img src="./images/4.jpg"></div>
+        <div class="icon"> <img src="./images/3.jpg"></div>
+        <div class="icon"> <img src="./images/2.jpg"></div>
+        <div class="icon"> <img src="./images/5.jpg" ></div>
+        <div class="icon"> <img src="./images/6.jpg" ></div>
+        <div class="icon"> <img src="./images/7.jpg" ></div>
+        <div class="icon"> <img src="./images/8.jpg" ></div>
+        <div class="icon"> <img src="./images/8.jpg" ></div>
+        <div class="icon"> <img src="./images/4.jpg"></div>
+        <div class="icon"> <img src="./images/5.jpg" ></div>
+        <div class="icon"> <img src="./images/6.jpg" ></div>
+        <div class="icon"> <img src="./images/7.jpg" ></div>
+        
+        
+        
+    </div>
+    <div style="border: 4px solid black; height: 40px; background-color: black; font-style: oblique; color: white; font-size: xx-large;padding: 40px;">Coming Soon..!</div>
+   
+    <div class="cd2">
+        <div class="icon2"><img src="./images/10.jpg" height="100%" width="100%"></div>
+        <div class="icon2"><img src="./images/12.jpg" height="100%" width="100%"></div>
+        <div class="icon2"><img src="./images/21.jpg" height="100%" width="100%"></div>
+        <div class="icon2"><img src="./images/22.jpg" height="100%" width="100%"></div>
+    </div>
+    <div class="cd2">
+        <div class="icon2"><img src="./images/23.jpg" height="100%" width="100%"></div>
+        <div class="icon2"><img src="./images/24.jpg" height="100%" width="100%"></div>
+        <div class="icon2"><img src="./images/25.jpg" height="100%" width="100%" ></div>
+        <div class="icon2"><img src="./images/26.avif" height="100%" width="100%"></div>
+    </div>
+    <div style="border: 4px solid black; height: 20px; background-color: black; font-style: oblique;  color: white; font-size: xx-large;padding: 20px;"></div>
+    <div style="border: 4px solid black; height: 40px; background-color: black; font-style: inherit;  color: white; font-size: xx-large; padding:40px ;">Top 10 Movies...</div>
+    
+    <div class="cd3">
+        <div class="icon3"><img src="./images/13.jpg" height="100%" width="100%"></div>
+        <div class="icon3"><img src="./images/14.jpg" height="100%" width="100%"></div>
+        <div class="icon3"><img src="./images/15.jpg" height="100%" width="100%"></div>
+        <div class="icon3"><img src="./images/16.jpg" height="100%" width="100%"></div>
+    </div>
+    <div class="cd3">
+        <div class="icon3"><img src="./images/17.jpg" height="100%" width="100%"></div>
+        <div class="icon3"><img src="./images/18.jpg" height="100%" width="100%"></div>
+        <div class="icon3"><img src="./images/19.jpg" height="100%" width="100%" ></div>
+        <div class="icon3"><img src="./images/20.jpg" height="100%" width="100%"></div>
+    </div>
+   
+    <div style="border: 4px solid black; height: 20px; background-color: black; font-style: oblique; color: white; font-size: xx-large;padding: 10px;"></div>
+       
+    <div style="border: 4px solid black; height: 40px; background-color: black; font-style: oblique; color: white; font-size: xx-large;padding: 40px;">Trending..!</div>   
+    </div>
+    <div class="cd4">
+        <div class="icon4"><img src="./images/1.jpg"></div>
+        <div class="icon4"> <img src="./images/2.jpg" ></div>
+        <div class="icon4"> <img src="./images/3.jpg" ></div>
+        <div class="icon4"> <img src="./images/4.jpg"></div>
+        <div class="icon4"> <img src="./images/5.jpg" ></div>
+        <div class="icon4"> <img src="./images/6.jpg" ></div>
+        <div class="icon4"> <img src="./images/7.jpg" ></div>
+        <div class="icon4"><img src="./images/1.jpg"></div>
+        <div class="icon4"> <img src="./images/2.jpg" ></div>
+        <div class="icon4"> <img src="./images/3.jpg" ></div>
+        <div class="icon4"> <img src="./images/4.jpg"></div>
+        <div class="icon4"> <img src="./images/5.jpg" ></div>
+        <div class="icon4"> <img src="./images/6.jpg" ></div>
+        <div class="icon4"> <img src="./images/7.jpg" ></div>
+       
+       
+        
+    </div>
+    <div class="cd1">
+        <div class="icon"><img src="./images/8.jpg" ></div>
+        <div class="icon"> <img src="./images/7.jpg"></div>
+        <div class="icon"> <img src="./images/6.jpg"></div>
+        <div class="icon"> <img src="./images/5.jpg"></div>
+        <div class="icon"> <img src="./images/4.jpg"></div>
+        <div class="icon"> <img src="./images/3.jpg"></div>
+        <div class="icon"> <img src="./images/2.jpg"></div>
+        <div class="icon"> <img src="./images/5.jpg" ></div>
+        <div class="icon"> <img src="./images/6.jpg" ></div>
+        <div class="icon"> <img src="./images/7.jpg" ></div>
+        <div class="icon"> <img src="./images/8.jpg" ></div>
+        <div class="icon"> <img src="./images/8.jpg" ></div>
+        <div class="icon"> <img src="./images/4.jpg"></div>
+        <div class="icon"> <img src="./images/5.jpg" ></div>
+        <div class="icon"> <img src="./images/6.jpg" ></div>
+        <div class="icon"> <img src="./images/7.jpg" ></div>
+        
+        
+        
+    </div>
+    
+    
+</body>
+</html>
